@@ -46,8 +46,8 @@ class mftrack:
         cv2.waitKey(30)
         if self.mouse_p1 and self.mouse_p2:
             cv2.destroyWindow("img")
-            print self.mouse_p1
-            print self.mouse_p2
+            print(self.mouse_p1)
+            print(self.mouse_p2)
             xmax = max(self.mouse_p1[0],self.mouse_p2[0])
             xmin = min(self.mouse_p1[0],self.mouse_p2[0])
             ymax = max(self.mouse_p1[1],self.mouse_p2[1])
